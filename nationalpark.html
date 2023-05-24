@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=css/main.css>
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>National Park!</title>
 </head>
-<body>
 
+<body>
+<div class = "box">
     <h1>National Park Search</h1>
     <select id="select_np">
         <option value="any">Select A Location</option>
@@ -19,22 +20,23 @@
         <option value="any">Select A Park Type</option>
     </select>
     <br>
-<table id="list">
-<thead>
-    <tr>
-        <th>Name</th>
-        <th>Address</th>
-        <th>City</th>
-    </tr>
-</thead>
-<tbody>
-     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</tbody>
-</table>
+    <table id="list">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+    </table>
+</div>
 <script src ="scripts/locationData.js"></script>
 <script src = "scripts/parkTypeData.js"></script>
 <script src ="scripts/nationalParkData.js"></script>
