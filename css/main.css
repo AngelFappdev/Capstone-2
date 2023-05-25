@@ -19,14 +19,10 @@ header{
 }
 
 .logo{
-    font: size 28px;
+    font: size 100px;
     font-weight:bold;
     color:#fefefe
 
-}
-
-.hamburger{
-     display:none;
 }
 
 .nav-bar ul {
@@ -56,11 +52,11 @@ header{
     position:center;
     max-width: 600px;
     padding: 10px;
-    background: rgba(255,255,255,.2);
+    background: rgba(255, 255, 255, 0.474);
     box-shadow: 0 5px 15px rgba(0,0,0.5);
     overflow:hidden;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 500px;
       
 }
 .box h1{
@@ -68,6 +64,20 @@ header{
     margin-left: 10px;
     color:black;
 }
+
+.box #output{
+    font-weight:bolder;
+    font-size:large;
+    color:black;
+}
+
+.box #list{
+    font-weight:bolder;
+    font-size:large;
+    color:black;
+    padding:1px;
+}
+
 
 body{
     background-image: url("../images/forest.2.jpg");
