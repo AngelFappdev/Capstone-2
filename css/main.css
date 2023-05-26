@@ -88,3 +88,8 @@ body{
     background-attachment: fixed;
     
 }
+
+.list tr:hover{
+    background-color: #00000088;
+
+}
